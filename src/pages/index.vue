@@ -10,12 +10,31 @@ onMounted(() => {
 <template>
   <div class="flex cursor-pointer">
     <div>
-      <h3>图</h3>
+      <h3>画布</h3>
       <router-link
-        to="/canvans/grid"
+        to="/canvas/grid"
         class="cursor-pointer"
       >
         网格线
+      </router-link>
+      <router-link
+        to="/canvas/background"
+        class="cursor-pointer"
+      >
+        背景
+      </router-link>
+      <router-link
+        to="/canvas/graphMove"
+        class="cursor-pointer"
+      >
+        图移动
+      </router-link>
+
+      <router-link
+        to="/canvas/graphZoom"
+        class="cursor-pointer"
+      >
+        图缩放
       </router-link>
     </div>
   </div>
