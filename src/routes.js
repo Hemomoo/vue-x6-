@@ -9,15 +9,15 @@ import BaseGraphZoom from '@/pages/canvas/graphZoom.vue';
 import BaseGraphTransform from '@/pages/canvas/graphTransform.vue';
 
 export const routes = [
-  { path: '/', component: Index },
-  { path: '/flowChart', component: FlowChart },
-  { path: '/base/graph', component: BaseGraph },
-  { path: '/canvas/grid', component: BaseGrid },
-  { path: '/canvas/background', component: BaseBackground },
-  { path: '/canvas/graphZoom', component: BaseGraphZoom },
-  { path: '/canvas/graphMove', component: BaseGraphMove },
-  { path: '/canvas/graphTransform', component: BaseGraphTransform },
-  { path: '/:path(.*)', component: NotFound },
+	{ path: '/', component: Index },
+	{ path: '/flowChart', component: FlowChart },
+	{ path: '/base/graph', component: BaseGraph },
+	{ path: '/canvas/grid', component: BaseGrid },
+	{ path: '/canvas/background', component: BaseBackground },
+	{ path: '/canvas/graphZoom', component: BaseGraphZoom },
+	{ path: '/canvas/graphMove', component: BaseGraphMove },
+	{ path: '/canvas/graphTransform', component: BaseGraphTransform },
+	{ path: '/:path(.*)', component: NotFound }
 ];
 
 export default routes;

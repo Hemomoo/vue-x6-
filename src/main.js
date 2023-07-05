@@ -7,8 +7,8 @@ import App from '@/app.vue';
 import { routes } from '@/routes.js';
 
 const router = createRouter({
-  history: createWebHistory(import.meta.env.VITE_BASE_PUBLIC_PATH),
-  routes,
+	history: createWebHistory(import.meta.env.VITE_BASE_PUBLIC_PATH),
+	routes
 });
 
 const app = createApp(App);
