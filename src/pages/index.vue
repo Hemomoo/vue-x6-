@@ -36,6 +36,11 @@ onMounted(() => {
       >
         图缩放
       </router-link>
+
+      <!-- 视口变换 -->
+      <router-link to="/canvas/graphTransform">
+        视口变换
+      </router-link>
     </div>
   </div>
 </template>

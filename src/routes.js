@@ -6,6 +6,7 @@ import BaseGrid from '@/pages/canvas/grid.vue';
 import BaseBackground from '@/pages/canvas/background.vue';
 import BaseGraphMove from '@/pages/canvas/graphMove.vue';
 import BaseGraphZoom from '@/pages/canvas/graphZoom.vue';
+import BaseGraphTransform from '@/pages/canvas/graphTransform.vue';
 
 export const routes = [
   { path: '/', component: Index },
@@ -15,6 +16,7 @@ export const routes = [
   { path: '/canvas/background', component: BaseBackground },
   { path: '/canvas/graphZoom', component: BaseGraphZoom },
   { path: '/canvas/graphMove', component: BaseGraphMove },
+  { path: '/canvas/graphTransform', component: BaseGraphTransform },
   { path: '/:path(.*)', component: NotFound },
 ];
 

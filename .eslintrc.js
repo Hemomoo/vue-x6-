@@ -21,6 +21,7 @@ module.exports = {
     'no-tabs': 'off',
     'no-template-curly-in-string': 'off',
     'no-unused-vars': 'off',
+    'global-require': 'off',
     'no-alert': 'off',
     'max-len': ['error', {
       code: 160,

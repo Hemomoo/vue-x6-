@@ -13,12 +13,14 @@
   "dependencies": {
     "@antv/x6": "^2.11.2",
     "@antv/x6-vue-shape": "^2.0.11",
+    "@headlessui/vue": "^1.7.14",
     "vue": "^3.3.4",
     "vue-router": "^4.2.2"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.2.3",
     "autoprefixer": "^10.4.14",
+    "daisyui": "^3.1.7",
     "eslint": "^8.44.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-import-resolver-alias": "^1.1.2",
